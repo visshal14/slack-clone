@@ -3,8 +3,8 @@ This is a clone webapp of Slack
 
 ## [link to deployed project](https://slack-clone-99340.web.app/)
 ## Technologies Used
-*ReactJs
-*Firebase
+* ReactJs
+* Firebase
 
 ## Description
 Slack Clone has google authentication which is used to record the name,photo,time and their messages on app.This has various different channels for messaging.Channels can be add using google cloud firestone.
