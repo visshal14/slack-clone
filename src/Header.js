@@ -5,7 +5,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 import HelpIcon from '@mui/icons-material/Help';
-import { useStateValue } from './SateProvider';
+import { useStateValue } from './StateProvider';
 function Header() {
 
     const [{ user }] = useStateValue();

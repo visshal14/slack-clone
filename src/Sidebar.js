@@ -5,7 +5,7 @@ import "./Sidebar.css"
 import SidebarOption from "./SidebarOption"
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import db from './firebase';
-import { useStateValue } from './SateProvider';
+import { useStateValue } from './StateProvider';
 
 
 

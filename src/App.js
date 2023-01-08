@@ -4,7 +4,7 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Chat from "./Chat"
 import Login from './Login';
-import { useStateValue } from './SateProvider';
+import { useStateValue } from './StateProvider';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
 
@@ -24,9 +24,7 @@ function App() {
           <>
             <Header />
             <div className='app_body'>
-
               <Sidebar />
-
               <Switch>
                 <Route exact path="/room/:roomId">
                   <Chat />
